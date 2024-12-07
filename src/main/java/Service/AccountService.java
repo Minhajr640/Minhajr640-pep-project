@@ -1,9 +1,7 @@
 package Service;
 
-
 import DAO.AccountDAO;
 import Model.Account;
-
 
 public class AccountService {
     /** Declaring Fields.*/
@@ -44,6 +42,4 @@ public class AccountService {
             return null;
         }
     }
-
-
 }

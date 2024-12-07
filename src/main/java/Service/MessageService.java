@@ -1,4 +1,5 @@
 package Service;
+
 import DAO.MessageDAO;
 import DAO.AccountDAO;
 import Model.Message;
@@ -91,5 +92,4 @@ public class MessageService {
     public List<Message> getMessagesByAccount(int account_id) {
             return messageDAO.getMessagesByAccount(account_id);
     }
-
 }
