@@ -48,7 +48,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler for processing a post request to "/register".
+     * This is a handler for processing a post request to "/register".
      * @param context The Javalin Context object manages information about both the HTTP request and response.
      */
     private void postRegisterHandler(Context context) throws JsonProcessingException{
@@ -65,7 +65,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler for processing a post request to "/login".
+     * This is a handler for processing a post request to "/login".
      */
     private void postLoginHandler(Context context) throws JsonProcessingException{
         ObjectMapper mapper = new ObjectMapper();
@@ -81,7 +81,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler for processing a post request to "/messages".
+     * This is a handler for processing a post request to "/messages".
      * @param context
      * @throws JsonProcessingException
      */
@@ -98,7 +98,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler for processing a get request to "/messages".
+     * This is a handler for processing a get request to "/messages".
      * @param context
      */
     private void getAllMessagesHandler(Context context) {
@@ -107,7 +107,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler to process a get request to "/messages/{message_id}".
+     * This is a handler to process a get request to "/messages/{message_id}".
      * @param context
      * @throws JsonProcessingException
      */
@@ -124,7 +124,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler to process a delete request to "/messages/{message_id}".
+     * This is a handler to process a delete request to "/messages/{message_id}".
      * @param context
      * @throws JsonProcessingException
      */
@@ -140,7 +140,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler to process a patch request to "/messages/{message_id}".
+     * This is a handler to process a patch request to "/messages/{message_id}".
      * @param context
      * @throws JsonProcessingException
      */
@@ -158,7 +158,7 @@ public class SocialMediaController {
     }
 
     /**
-     * This is an handler to process a get request to "/accounts/{account_id}/messages". 
+     * This is a handler to process a get request to "/accounts/{account_id}/messages". 
      * @param context
      */
     private void getMessagesByUserHandler(Context context) {
